@@ -1,0 +1,39 @@
+======================================================================
+RELATÓRIO DE ANÁLISE - CNN ESTRUTURA 4
+Classificação de Dígitos 1-5 (EMNIST)
+Baseado em: Silva Filho et al. (2022)
+======================================================================
+
+MÉTRICAS PRINCIPAIS
+----------------------------------------------------------------------
+Precisão no teste: 99.76%
+Perda final (treino): 0.0029
+Perda final (validação): 0.0112
+Número de épocas: 14
+
+PRECISÃO POR CLASSE
+----------------------------------------------------------------------
+Dígito 1: 99.92%
+Dígito 2: 99.72%
+Dígito 3: 99.43%
+Dígito 4: 99.84%
+Dígito 5: 99.86%
+
+Melhor classe: Dígito 1 (99.92%)
+Pior classe: Dígito 3 (99.43%)
+
+COMPARAÇÃO COM O ARTIGO
+----------------------------------------------------------------------
+Artigo (Estrutura 4, dígitos 0-9): 98,84%
+Obtido (dígitos 1-5): 99.76%
+Diferença: +0.92%
+
+Artigo (perda): 0,064
+Obtido (perda validação): 0.0112
+Diferença: -0.0528
+
+CONCLUSÃO
+----------------------------------------------------------------------
+✅ Resultados EXCELENTES! Comparáveis ao artigo original.
+A arquitetura Estrutura 4 demonstrou alta eficácia na
+classificação dos dígitos 1-5 do EMNIST.
